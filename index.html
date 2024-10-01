@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes"
+    />
+    <title>Simple Landing Page</title>
+
+    <link
+      rel="preload"
+      href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/css/bootstrap.min.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="preload" href="./assets/css/style_base_1.min.css" as="style" />
+    <link rel="stylesheet" href="./assets/css/style_base_1.min.css" />
+
+    <!-- font-awesome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/custom.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <nav class="container">
+        <div class="logo_wrapper">
+          <a href="#"
+            ><img src="assets/images/Mijnwooncomfort.nl_.png" alt="Logo Image"
+          /></a>
+        </div>
+      </nav>
+    </header>
+
+    <section id="main_contain">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="house_discount_wrapper card_box row">
+              <div class="col-lg-3">
+                <div class="image_wrapper_house">
+                  <img
+                    src="assets/images/Untitled-design-42-1024x1024.png"
+                    alt="House Icon"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h2>Nu tot 40% korting op Zonnepanelen!</h2>
+                <p>Nieuwsgierig naar de prijs van nieuwe zonnepanelen?</p>
+                <p>
+                  Vul nu snel het formulier in en ontdek hoe betaalbaar het kan
+                  zijn! Profiteer van onze scherpe prijzen en geniet binnenkort
+                  van duurzame energieopwekking en lagere energiekosten.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service_wrapper card_box h-100">
+              <h2 class="text-center">100% Gratis service</h2>
+
+              <div class="d-flex align-items-center">
+                <i
+                  style="font-size: 40px; margin: 20px"
+                  class="fa-solid fa-stopwatch"
+                ></i>
+
+                <div class="box-text">
+                  <p class="mb-0">Stap 1 Wensen invullen</p>
+                  <p class="mb-0">Stap 2 Gegevens invullen</p>
+                  <p class="mb-0">Stap 3 Gratis offertes ontvangen</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 65px">
+          <div class="col-lg-8">
+            <div class="form_wrapper row">
+              <div class="col-lg-6">
+                <input
+                  type="text"
+                  placeholder="* Voornaam"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-lg-6">
+                <input
+                  type="text"
+                  placeholder="* Achternaam"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-lg-6">
+                <input
+                  type="text"
+                  placeholder="* Postcode"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-lg-6">
+                <input
+                  type="text"
+                  placeholder="* Straat"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-lg-6">
+                <input
+                  type="text"
+                  placeholder="* Huisnummer"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-lg-6">
+                <input
+                  type="text"
+                  placeholder="* Woonplaats"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-lg-6">
+                <input
+                  type="tel"
+                  placeholder="* Telefoonnummer"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-lg-6">
+                <input
+                  type="email"
+                  placeholder="* E-mailadres"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-lg-6">
+                <label for="">Soort aanvraag?</label>
+                <select class="form-control" name="soort_aanvraag?">
+                  <option value="Particulier">Particulier</option>
+                  <option value="Zakelijk">Zakelijk</option>
+                </select>
+              </div>
+              <div class="col-lg-6">
+                <label for="">Ben je eigenaar van de woning?</label>
+                <select class="form-control" name="soort_aanvraag?">
+                  <option value="Ja, ik ben eigenaar" selected="">
+                    Ja, ik ben eigenaar
+                  </option>
+                  <option value="Nee, ik word binnen 6 weken eigenaar">
+                    Nee, ik word binnen 6 weken eigenaar
+                  </option>
+                  <option value="Nee, ik word over meer dan 6 weken eigenaar">
+                    Nee, ik word over meer dan 6
+                  </option>
+                  <option value="Nee, ik overweeg te gaan kopen">
+                    Nee, ik overweeg te gaan kopen
+                  </option>
+                  <option value="Nee, ik huur">Nee, ik huur</option>
+                </select>
+              </div>
+              <div class="col-lg-6">
+                <label class="dropdown-label">Wat voor soort dak heb je?</label>
+                <select
+                  class="form-control"
+                  name="wat_voor_soort_dak_heb_je?"
+                  required
+                >
+                  <option value="Schuin dak" selected>Schuin dak</option>
+                  <option value="Plat dak">Plat dak</option>
+                </select>
+              </div>
+              <div class="col-lg-6">
+                <label class="dropdown-label"
+                  >Hoeveel kWh verbruik je per jaar?</label
+                >
+                <select
+                  class="form-control"
+                  name="hoeveel_kwh_verbruik_je_per_jaar?"
+                  required=""
+                >
+                  <option value="Ik kan geen schatting maken">
+                    Ik kan geen schatting maken
+                  </option>
+                  <option value="2.300 kWh (1 persoon)">
+                    2.300 kWh (1 persoon)
+                  </option>
+                  <option value="3.400 kWh (2 personen)">
+                    3.400 kWh (2 personen)
+                  </option>
+                  <option value="4.100 kWh (3 personen)">
+                    4.100 kWh (3 personen)
+                  </option>
+                  <option value="4.600 kWh (4 personen)">
+                    4.600 kWh (4 personen)
+                  </option>
+                  <option value="5.300 kWh (5 personen)">
+                    5.300 kWh (5 personen)
+                  </option>
+                  <option value="5.400 kWh (6 personen)">
+                    5.400 kWh (6 personen)
+                  </option>
+                  <option value="Meer dan 5.400 kWh">Meer dan 5.400 kWh</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label class="dropdown-label"
+                  >Wanneer wil je de zonnepanelen laten plaatsen?</label
+                >
+                <select
+                  class="form-control"
+                  name="wanneer_wil_je_de_zonnepanelen_laten_plaatsen?"
+                >
+                  <option value="In overleg">In overleg</option>
+                  <option value="Binnen 3 maanden">Binnen 3 maanden</option>
+                  <option value="Binnen 3 tot 6 maanden">
+                    Binnen 3 tot 6 maanden
+                  </option>
+                </select>
+              </div>
+              <div class="col-12">
+                <div class="d-flex align-items-center justify-content-center">
+                  <img
+                    width="90px"
+                    src="assets/images/Untitled-design-42-1024x1024.png"
+                    alt="House Logo"
+                  />
+                  <h2 class="mb-0" style="color: #004aad; font-weight: 700">
+                    100% Gratis service
+                  </h2>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn-lg mt-3" id="submit_btn">
+                  Aanvraag voltooien ➔
+                </button>
+                <p
+                  class="text-center"
+                  style="font-size: 12px; margin-top: 15px"
+                >
+                  This site is protected by reCAPTCHA and the Google
+                  <a href="https://policies.google.com/privacy"
+                    >Privacy Policy</a
+                  >
+                  and
+                  <a href="https://policies.google.com/terms"
+                    >Terms of Service</a
+                  >
+                  apply.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="list_text_wrapper h-100">
+              <h2 class="text-center mb-3">Waarom Mijnwooncomfort.nl</h2>
+              <ul id="list_wrapper">
+                <li>Binnen 1 minuut aangevraagd</li>
+                <li>Vrijblijvende offertes</li>
+                <li>Betrouwbare vakmensen</li>
+                <li>De beste prijs</li>
+              </ul>
+
+              <img src="assets/images/Mijnwooncomfort.nl_.png" alt="logo" />
+              <img
+                src="assets/images/Huis-Isoleren-18.png"
+                alt="human image"
+                class="mt-2"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-part">
+            <h1>Zonnepanelen zijn nu goedkoper dan ooit!</h1>
+          <p>
+            Waarom zou je kiezen voor zonnepanelen op je huis? Het antwoord is
+            eenvoudig: zonnepanelen bieden een duurzame en rendabele manier om
+            je huis van energie te voorzien. In Nederland zijn zonnepanelen een
+            populaire keuze, en dat is niet zonder reden.
+          </p>
+          <p>
+            Zonnepanelen maken gebruik van zonne-energie om elektriciteit op te
+            wekken, waardoor je minder afhankelijk wordt van traditionele
+            energiebronnen en je ecologische voetafdruk verkleint. Door te
+            investeren in zonne-energie draag je bij aan een schonere en
+            groenere toekomst, terwijl je tegelijkertijd bespaart op je
+            energierekening.
+          </p>
+          <p>
+            Daarnaast zijn zonnepanelen een waardevolle investering voor je
+            huis. Ze verhogen de waarde van je woning en maken het
+            aantrekkelijker voor potentiële kopers, omdat ze kunnen profiteren
+            van de lagere energiekosten die zonnepanelen met zich meebrengen.
+          </p>
+          <p>
+            Zonnepanelen zijn ook onderhoudsarm en gaan lang mee. Met regelmatig
+            onderhoud kunnen zonnepanelen tientallen jaren meegaan, waardoor je
+            kunt genieten van gratis energieopwekking voor vele jaren.
+          </p>
+          <p>
+            Bij Mijnwooncomfort.nl begrijpen we het belang van hoogwaardige
+            zonnepanelen voor je huis. Onze ervaren professionals staan klaar om
+            je te helpen bij elke stap van het proces, van advies en ontwerp tot
+            installatie en onderhoud. We bieden maatwerkoplossingen die voldoen
+            aan al je wensen en eisen, zodat je kunt genieten van de voordelen
+            van zonne-energie op een manier die bij jouw huis past.
+          </p>
+          <p>
+            Klaar om over te stappen op zonne-energie? Neem vandaag nog contact
+            met ons op voor meer informatie of vraag vrijblijvend een offerte
+            aan. Bespaar tot 40% op de kosten van je zonnepanelen en geniet van
+            een duurzame en energiezuinige woning.
+          </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      type="text/javascript"
+      src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/bootstrap.bundle.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/methods_global.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/methods_global_base_1.min.js"
+    ></script>
+    <script type="text/javascript" src="./assets/js/script.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/script_base_1.min.js"
+    ></script>
+    <script type="text/javascript" src="./assets/js/methods_de.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/messages_de.min.js"
+    ></script>
+  </body>
+</html>

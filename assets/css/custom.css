@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.logo_wrapper {
+  width: 406px;
+}
+img {
+  max-width: 100%;
+}
+header {
+  padding: 30px;
+}
+.service_wrapper {
+  padding: 0px 20px;
+  border-radius: 15px !important;
+  margin: 0px !important;
+  box-shadow: 1px 1px 25px 0px rgba(0, 0, 0, 0.71) !important;
+
+}
+.service_wrapper p {
+  font-family: "Poppins";
+  font-size: 14px !important;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.service_wrapper h2 {
+  color: #004aad;
+  font-size: 18px !important;
+  font-weight: 600;
+}
+.card_box h2 {
+  color: #004aad;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+.card_box p {
+  color: #050038;
+  font-size: 14px;
+  font-weight: 400;
+}
+.card_box img {
+  width: 87px;
+  margin: 20px;
+}
+#main_contain {
+  background: linear-gradient(to bottom, #131d3b 22%, white 10%, white 100%);
+  height: 100%;
+  padding: 70px 0px 20px 0px;
+}
+
+.card_box {
+  background: white;
+  box-shadow: 1px 1px 10px 0px rgba(255, 255, 255, 0.71);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 0px 0px 0px 0px;
+  border-radius: 5px;
+  padding: 30px 0px;
+  padding-left: 25px;
+}
+.form_wrapper.row {
+  box-shadow: 1px 1px 10px 0px #131d3b;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 0;
+  background: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+.list_text_wrapper {
+  margin-top: 65px !important;
+  padding: 20px;
+  border-radius: 15px !important;
+  margin: 0px !important;
+  background: white;
+  box-shadow: 1px 1px 25px 0px rgba(0, 0, 0, 0.71);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  border-radius: 15px;
+}
+#list_wrapper {
+  font-size: 17px;
+  color: #131d3b;
+  font-weight: 800;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #004aad;
+}
+.text-part{
+    margin-top: 75px;
+}
+.text-part h1{
+    color: #004AAD;
+    margin-bottom: 1em;
+}
+.text-part p {
+    margin-bottom: 1.75em;
+}
+.list_text_wrapper h2 {
+  color: #004aad;
+  font-size: 18px !important;
+  font-weight: 600;
+}
+.form_wrapper.row input,
+.form_wrapper.row select {
+  margin-bottom: 10px;
+}
+.form_wrapper.row label {
+  margin: 0;
+}
+#submit_btn {
+  background-color: #ff7800;
+  color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+
+@media only screen and (max-width: 771px) {
+    .image_wrapper_house{
+        margin: auto;
+        width: 60%;
+    }
+    #main_contain {
+        background: linear-gradient(to bottom, #131d3b 10%, white 10%, white 100%);
+      }
+    .image_wrapper_house img{
+        max-width: 100% !important;
+        width: auto !important;
+    }
+    .card_box{
+        padding-left: auto !important;
+        padding: 30px 20px !important;
+    }
+    .list_text_wrapper {
+        margin-top: 65px !important;
+    }
+    .text-part{
+        margin-top: 120px !important;
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .logo_wrapper {
+        width: 100%;
+    }
+}
